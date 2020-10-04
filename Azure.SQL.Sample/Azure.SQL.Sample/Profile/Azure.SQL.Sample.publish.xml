@@ -4,7 +4,10 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>azsqldevops</TargetDatabaseName>
     <DeployScriptFileName>Azure.SQL.Sample.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=devwannabe.database.windows.net;Persist Security Info=True;User ID=adminwannabe;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <DatabaseEdition>Basic</DatabaseEdition>
+    <DatabaseServiceObjective>Basic</DatabaseServiceObjective>
+    <DatabaseMaximumSize>2</DatabaseMaximumSize>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
 </Project>
